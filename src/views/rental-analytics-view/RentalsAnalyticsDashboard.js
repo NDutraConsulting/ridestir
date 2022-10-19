@@ -35,9 +35,9 @@ class RentalAnalyticsDashboard extends Component {
                     <Navbar />
                     <LoadingAnimation />
                     <Routes>
-                      <Route path='/marketing' exact element={this.renderMarketing()} />
-                      <Route path='/logistics' element={this.renderLogistics()} />
-                      <Route path='/planning' element={this.renderPlanning()} />
+                      <Route path='ridestir/marketing' exact element={this.renderMarketing()} />
+                      <Route path='ridestir/logistics' element={this.renderLogistics()} />
+                      <Route path='ridestir/planning' element={this.renderPlanning()} />
                     </Routes>
                   </Router>
 
