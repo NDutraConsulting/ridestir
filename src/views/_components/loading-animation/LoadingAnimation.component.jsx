@@ -3,8 +3,12 @@ import { Component } from "react";
 import EventBus from "../../../events/_event-bus/_EventBus";
 import EventRegistry from "../../../events/event-registry/EventRegistry";
 
+import LoadingImg from "../../../images/Loading.gif";
+
 // Gets applied to all elements in the application
 import './styles/styles.css';
+
+
 // There is a way to keep styles linked to the component using a library:
 // https://styled-components.com/
 
@@ -41,7 +45,7 @@ class LoadingAnimation extends Component {
 
         return (
             <div className={`loading-wrapper ${this.state.displayClassName}`} >
-                <img src="./images/Loading.gif" alt="loading"/>
+                <img src={LoadingImg} alt="loading"/>
             </div>
         );
     }
