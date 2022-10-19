@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ridestir/static/css/main.bc294d6a.css",
-    "main.js": "/ridestir/static/js/main.0d1d956b.js",
-    "static/js/787.2f352268.chunk.js": "/ridestir/static/js/787.2f352268.chunk.js",
-    "index.html": "/ridestir/index.html",
-    "main.bc294d6a.css.map": "/ridestir/static/css/main.bc294d6a.css.map",
-    "main.0d1d956b.js.map": "/ridestir/static/js/main.0d1d956b.js.map",
-    "787.2f352268.chunk.js.map": "/ridestir/static/js/787.2f352268.chunk.js.map"
+    "main.css": "/static/css/main.bc294d6a.css",
+    "main.js": "/static/js/main.2a5b5400.js",
+    "static/js/787.2f352268.chunk.js": "/static/js/787.2f352268.chunk.js",
+    "index.html": "/index.html",
+    "main.bc294d6a.css.map": "/static/css/main.bc294d6a.css.map",
+    "main.2a5b5400.js.map": "/static/js/main.2a5b5400.js.map",
+    "787.2f352268.chunk.js.map": "/static/js/787.2f352268.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc294d6a.css",
-    "static/js/main.0d1d956b.js"
+    "static/js/main.2a5b5400.js"
   ]
 }
