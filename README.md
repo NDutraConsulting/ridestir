@@ -1,4 +1,4 @@
-# Rentals Dashboard - *Ridestir*
+# Rental Analytics Dashboard - *Ridestir*
 
 **Ridestir** utilizes a shared bike ride metrics API to display graphs and critical metrics about bike usage and location availability to the user.
 
