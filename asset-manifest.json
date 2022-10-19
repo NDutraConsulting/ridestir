@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ridestir/static/css/main.bc294d6a.css",
-    "main.js": "/ridestir/static/js/main.3d785860.js",
+    "main.js": "/ridestir/static/js/main.eaee0a2d.js",
     "static/js/787.2f352268.chunk.js": "/ridestir/static/js/787.2f352268.chunk.js",
     "index.html": "/ridestir/index.html",
     "main.bc294d6a.css.map": "/ridestir/static/css/main.bc294d6a.css.map",
-    "main.3d785860.js.map": "/ridestir/static/js/main.3d785860.js.map",
+    "main.eaee0a2d.js.map": "/ridestir/static/js/main.eaee0a2d.js.map",
     "787.2f352268.chunk.js.map": "/ridestir/static/js/787.2f352268.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc294d6a.css",
-    "static/js/main.3d785860.js"
+    "static/js/main.eaee0a2d.js"
   ]
 }
