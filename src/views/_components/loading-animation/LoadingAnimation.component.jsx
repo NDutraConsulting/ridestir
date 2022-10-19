@@ -41,7 +41,7 @@ class LoadingAnimation extends Component {
 
         return (
             <div className={`loading-wrapper ${this.state.displayClassName}`} >
-                <img src="images/Loading.gif" alt="loading"/>
+                <img src="./images/Loading.gif" alt="loading"/>
             </div>
         );
     }
