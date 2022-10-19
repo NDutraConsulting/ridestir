@@ -7,17 +7,17 @@ Time spent: **X** hours spent in total
 ## User Stories
 
 The following **required** functionality is completed:
-* [ ] User can navigate to individual views as follows:
+* [x] User can navigate to individual views as follows:
     * Data views for marketing
     * Data views for equipment distribution management.
     * Data views for and hourly usage metrics for equipment purchase planning.
     * So that each team can make more informed decisions about the business.
-* [ ] User can view **end of day metrics** for each location. (Bar Chart)
+* [x] User can view **end of day metrics** for each location. (Bar Chart)
     * So that the logistics team can move rentals from surplus locations to locaitons in need. 
-*[ ] User can view **checkin and checkout metrics** for each location by the hour.
+*[x] User can view **checkin and checkout metrics** for each location by the hour.
     * So that the logistics team can understand high usage points throughout the day.
         * Optional: Which locations have the **most checkouts in an hour**.
-* [ ] User can view **Age demographics** for each location. (Bar Chart)
+* [x] User can view **Age demographics** for each location. (Bar Chart)
     * So that the marketing team can create relevant advertising for our riders. We want to make sure the ads are tailored to particular age demographics.
 
 
