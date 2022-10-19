@@ -79,18 +79,18 @@ class AgeDemographicsViewModel {
         };
   
         const scales = {
-          yAxes: [{
+          y: {
             scaleLabel: {
               display: true,
               labelString: 'probability'
             }
-          }],
-          xAxes: [{
+          },
+          x: {
             scaleLabel: {
               display: true,
               labelString: 'hola'
             }
-          }],
+          },
         };
   
 
