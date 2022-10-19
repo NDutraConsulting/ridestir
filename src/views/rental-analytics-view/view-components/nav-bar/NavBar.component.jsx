@@ -15,7 +15,10 @@ const Navbar = () => {
         <Bars />
   
         <NavMenu>
-          <NavLink to='/marketing' activestyle="true">
+          <NavLink to='/' activestyle="true">
+            Home
+          </NavLink>
+          <NavLink to='/marketing' >
             Marketing
           </NavLink>
           <NavLink to='/logistics' >
