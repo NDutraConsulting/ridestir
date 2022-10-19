@@ -24,7 +24,6 @@ class Home extends Component {
               <p className='description'>Welcome to the rental analytics dashboard.
               </p>
 
-
             </div>
           );
   }

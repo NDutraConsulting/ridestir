@@ -15,7 +15,6 @@ class Logistics extends Component {
   
   constructor(props) {
     super(props);
-    console.log('constructor()');
 
     const rentalLogs = new rentalLogsModel();
 
@@ -28,7 +27,6 @@ class Logistics extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount()');
     this.state.rentalLogs.fetchData().then(
       (model) => {
         this.setState(
@@ -42,7 +40,6 @@ class Logistics extends Component {
 
 
   render() {
-    console.log('render()');
 
     return (
             <div className="page-wrapper">

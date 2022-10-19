@@ -13,6 +13,10 @@ import LoadingAnimation from '../_components/loading-animation/LoadingAnimation.
 
 class RentalAnalyticsDashboard extends Component {
 
+  renderHome = () => {
+    return <Home />;
+  }
+  
   renderMarketing = () => {
     return <Marketing />;
   }
@@ -26,24 +30,22 @@ class RentalAnalyticsDashboard extends Component {
   }
 
   render() {
-    console.log('render()');
 
     return (
             <div className="App">
               <h1>Bike Rental Analytics</h1>
 
               <Router>
-                    <Navbar />
-                    <LoadingAnimation />
-                    <Routes>
-                      <Route path='/' exact element={<Home />} />
-                      <Route path='/marketing' element={this.renderMarketing()} />
-                      <Route path='/logistics' element={this.renderLogistics()} />
-                      <Route path='/planning' element={this.renderPlanning()} />
-                    </Routes>
-                  </Router>
-
-
+                <Navbar />
+                <LoadingAnimation />
+                <Routes>
+                  <Route path='/' element={this.renderHome()} />
+                  <Route path='/home' element={this.renderHome()} />
+                  <Route path='/marketing' element={this.renderMarketing()} />
+                  <Route path='/logistics' element={this.renderLogistics()} />
+                  <Route path='/planning' element={this.renderPlanning()} />
+                </Routes>
+              </Router>
 
             </div>
           );
