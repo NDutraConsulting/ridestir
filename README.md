@@ -1,3 +1,42 @@
+# Rentals Dashboard - *Ridestir*
+
+**Ridestir** utilizes a shared bike ride metrics API to display graphs and critical metrics about bike usage and location availability to the user.
+
+Time spent: **X** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+* [ ] User can navigate to individual views as follows:
+    * Data views for marketing
+    * Data views for equipment distribution management.
+    * Data views for and hourly usage metrics for equipment purchase planning.
+    * So that each team can make more informed decisions about the business.
+* [ ] User can view **end of day metrics** for each location. (Bar Chart)
+    * So that the logistics team can move rentals from surplus locations to locaitons in need. 
+*[ ] User can view **checkin and checkout metrics** for each location by the hour.
+    * So that the logistics team can understand high usage points throughout the day.
+        * Optional: Which locations have the **most checkouts in an hour**.
+* [ ] User can view **Age demographics** for each location. (Bar Chart)
+    * So that the marketing team can create relevant advertising for our riders. We want to make sure the ads are tailored to particular age demographics.
+
+
+The following **optional** features are implemented:
+
+* [ ] User can identify bike usage or problems, so that bikes can be serviced, replaced and repaired.
+  * [ ] The mileage of five most ridden bikes.
+  * [ ] The mileage of five least ridden bikes. (These bikes might be broken)
+* [ ] Logistics team can view **end of day metrics** on a map
+    * So that the logistics team can more effieciently coordinate the transfer of rentals from surplus locations to locaitons in need.
+
+
+Developer functionality
+* [x] Developer can start a local Mock Server so that the developer can verify correctness of the solution.
+    * npm run mock-server
+* [x] Developer can develop feature and unit tests with the Mock Server so that team based CI/CD does not break existing functionality.
+    * npm run test
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
