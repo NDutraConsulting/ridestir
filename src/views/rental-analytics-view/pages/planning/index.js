@@ -9,6 +9,7 @@ import rentalLogsModel from '../../../../models/rentals/RentalLogsModel';
 // View Components
 import Dropdown from '../../../_components/dropdown/Dropdown.component';
 import RentalsByHour from '../../view-components/charts/rentals-by-hour/RentalsByHour.component';
+import EndOfDayTotals from '../../view-components/charts/end-of-day-totals/EndOfDayTotals.component';
 import EventBus from '../../../../events/_event-bus/_EventBus';
 import EventRegistry from '../../../../events/event-registry/EventRegistry';
 
@@ -59,7 +60,12 @@ class Planning extends Component {
                 defaultSelectedId={this.state.selectedLocationId}/>
 
               <RentalsByHour rentalLogs={this.state.rentalLogs} locationId={this.state.selectedLocationId}/>
-
+             
+              <h3>End of day totals.</h3>
+              <p className='description'>Use this graph to determine which locations need bikes and which locations have extra bikes.
+               <br/><small>(Note: This would only work in a real world situation if you transfered surplus to deficits every night.)</small>
+              </p>
+              <EndOfDayTotals rentalLogs={this.state.rentalLogs}/>
 
             </div>
           );
