@@ -1,5 +1,7 @@
 # Rental Analytics Dashboard - *Ridestir*
 
+**[Live DEMO] (https://kore-labs.github.io/marketing)**
+
 **Ridestir** utilizes a shared bike ride metrics API to display graphs and critical metrics about bike usage and location availability to the user.
 
 ## User Stories
