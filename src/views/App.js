@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './_styles/index.css';
+import RentalAnalyticsDashboard from './rental-analytics-view/RentalsAnalyticsDashboard';
 
 class App extends Component {
   
@@ -8,7 +9,8 @@ class App extends Component {
 
     return (
             <div className="App">
-              nothing yet
+              {/* LoadingAnimation is an event driven decoupling demonstration */}       
+              <RentalAnalyticsDashboard />
             </div>
           );
   }

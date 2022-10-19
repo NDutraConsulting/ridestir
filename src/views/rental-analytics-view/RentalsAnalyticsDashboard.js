@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Marketing from './pages/marketing';
 import Logistics from './pages/logistics';
 import Planning from './pages/planning';
+import LoadingAnimation from '../_components/loading-animation/LoadingAnimation.component';
 
 class RentalAnalyticsDashboard extends Component {
 
@@ -32,12 +33,16 @@ class RentalAnalyticsDashboard extends Component {
 
               <Router>
                     <Navbar />
+                    <LoadingAnimation />
                     <Routes>
                       <Route path='/marketing' exact element={this.renderMarketing()} />
                       <Route path='/logistics' element={this.renderLogistics()} />
                       <Route path='/planning' element={this.renderPlanning()} />
                     </Routes>
                   </Router>
+
+
+
             </div>
           );
   }
