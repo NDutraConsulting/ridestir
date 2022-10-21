@@ -61,7 +61,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run mock-server`
 
 Launches the node.js mock server for streamlined local development.
-Add routes as needed to mock backend services, so that the frontend development team can work independent of the backend team.
+Add routes as needed to mock backend services, so that the frontend development team can work in parallel with the backend team.
 
 ### `npm run build`
 
