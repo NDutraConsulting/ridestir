@@ -27,7 +27,7 @@ The following **optional** features are implemented:
   * [ ] The mileage of five most ridden bikes.
   * [ ] The mileage of five least ridden bikes. (These bikes might be broken)
 * [ ] Logistics team can view **end of day metrics** on a map
-    * So that the logistics team can more effieciently coordinate the transfer of rentals from surplus locations to locaitons in need.
+    * So that the logistics team can more effieciently coordinate the transfer of rentals from surplus locations to locations in need.
 
 
 Developer functionality
