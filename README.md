@@ -58,6 +58,11 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run mock-server`
+
+Launches the node.js mock server for streamlined local development.
+Add routes as needed to mock backend services, so that the frontend development team can work independent of the backend team.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
